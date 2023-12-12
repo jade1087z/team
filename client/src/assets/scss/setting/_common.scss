@@ -1,0 +1,35 @@
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+
+.whiteSpaceNo {
+    white-space: nowrap;
+}
+
+.none {
+    display: none;
+}
+
+// .box {
+//     border-radius: 10px;
+//     border: 1px solid var(--primary-color);
+//     // box-shadow: 3px 3px 2px 4px #000;
+//     box-shadow: 3px px 10px 4px #000;
+// }
+.box {
+    border-radius: 10px;
+    outline: 2px solid black;
+    outline-offset: 0px;
+    border-right: 4px solid black;
+    border-bottom: 4px solid black;
+}
+.text {
+    color: blue;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,50 @@
+:root {
+    --mainfont-Shrikhand: "Shrikhand";
+    font-family: "Shrikhand", serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 600;
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: 100%;
+
+    ---black: #000;
+    --black100: #333;
+
+    --white: #fff;
+    --white100: #eaeaea;
+
+    // font color
+    --font-pink1: #ffc0d9;
+    --font-puple1: #a295da;
+
+    // bg color
+    --bg-pink: #fdf0f0;
+
+    // box color
+    --box-pink: #ffc0d9;
+}
+
+@media (max-width: 1510px) {
+    :root {
+        font-size: 14px;
+    }
+}
+@media (max-width: 1400px) {
+    :root* {
+        font-size: 12px;
+    }
+}
+@media (max-width: 1250px) {
+    :root* {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1000px) {
+    :root* {
+        font-size: 10px;
+    }
+}
