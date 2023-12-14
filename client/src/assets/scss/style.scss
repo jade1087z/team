@@ -1,9 +1,15 @@
 @charset "UTF-8";
+
+// setting
 @import "setting/common.scss";
-// @import "setting/fonts.scss";
 @import "setting/reset.scss";
 @import "setting/vars.scss";
 @import "setting/marginpadding.scss";
 
+// section
 @import "section/header.scss";
+@import "section/main.scss";
 // @import "section/intro.scss";
+
+// util
+@import "util/calendar.scss";

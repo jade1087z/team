@@ -1,0 +1,18 @@
+#main {
+    width: calc(100% - 160px);
+    height: 100vh;
+
+    .main__wrap {
+        display: flex;
+        justify-content: space-between;
+        .left {
+            width: 49.5%;
+            background-color: #fff;
+        }
+        .right {
+            width: 49.5%;
+
+            background-color: #fff;
+        }
+    }
+}
